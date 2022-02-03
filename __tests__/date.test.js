@@ -1,4 +1,3 @@
-// import Date from '../src/index.js';
 
 describe('Date', () => {
   let d;
@@ -18,7 +17,6 @@ describe('Date', () => {
   });
 
   test('should correctly instantiate a new Date class', () => {
-    const d = new ();
     expect();
   });
 
