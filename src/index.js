@@ -10,7 +10,9 @@ const nameOfWeekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "
 // 2022-02-03
 // 2022/02/03
 $("#submitDate").click(function() {
-  const userDate = $("input#userDate").val();
+  const userDate =  $("input#userDate").val().replace( new RegExp( '-', 'g'), "/");
+  
+  //.replace(/-/g, '\/');
   console.log(userDate);
   $("#inputDate").text(userDate);
   const d = new Date(userDate);
