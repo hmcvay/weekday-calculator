@@ -4,8 +4,10 @@
 
 <br>
 
-#### By Hayley McVay <https://github.com/hmcvay>
-#### Kevin Williams <https://github.com/k9w>
+#### Contributors (s)
+
+ - Hayley McVay <https://github.com/hmcvay>
+ - Kevin Williams <https://github.com/k9w>
 
 <br>
 
@@ -21,18 +23,18 @@ _Live site [here](https://hmcvay.github.io/weekday-calculator)
 
 * _Clone this repository to your desktop._
 * _Navigate to the top level of the directory._
-* _Open index.html file in your browser_
 * _To install the necessary dependencies, run `$ npm install`  `npm run build`._
+*_Open dist/index.html_
 * _Once application is open, run `$ npm test`._
+* _Open index.html file in your browser_
 
 ## Technologies Used
 
 * _JavaScript_
 * _jQuery_
-* _HTML_
-* _CSS_
-
-(add webpack? jest? babel? not sure what qualifies here)
+* _webpack_
+*_Jest_
+*_Babel_
 
 ## Known Bugs
 
