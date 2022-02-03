@@ -1,15 +1,24 @@
 import $ from 'jquery';
 
-let d = new Date('Feb 2 2001');
+// const d = new Date('Feb 2 2001');
 
 const nameOfWeekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-let day = d.getDay();
+// const day = d.getDay();
 
-nameOfWeekday[day]; //string to give back to user
+// nameOfWeekday[day]; //string to give back to user
 
-$("#submitDate").click( function() {
+// 2022-02-03
+// 2022/02/03
+$("#submitDate").click(function() {
   const userDate = $("input#userDate").val();
-  console.log( userDate );
+  console.log(userDate);
+  $("#inputDate").text(userDate);
+  const d = new Date(userDate);
+  console.log(d);
+  const day = d.getDay();
+  console.log(day);
+  const result = nameOfWeekday[day];
+  $("#dayValue").text(result);
 });
 
 
