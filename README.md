@@ -4,10 +4,11 @@
 
 <br>
 
-#### Contributors (s)
+#### Contributor(s)
 
  - Hayley McVay <https://github.com/hmcvay>
  - Kevin Williams <https://github.com/k9w>
+ - Eric Crudup <briefcasemanx@gmail.com>
 
 <br>
 
@@ -44,4 +45,4 @@ _Live site [here](https://hmcvay.github.io/weekday-calculator)
 [ISC](https://choosealicense.com/licenses/isc)
 _For any problems, please file an issue on Github. Pull Requests welcome._
 
-Copyright (c) _2022_ _Hayley McVay_
+Copyright (c) _2022_ _Hayley McVay_, _Kevin Williams_, and _Eric Crudup_
